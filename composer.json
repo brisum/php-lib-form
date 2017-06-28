@@ -1,0 +1,21 @@
+{
+  "name": "brisum/lib-form",
+  "description": "Form",
+  "keywords": [
+    "form"
+  ],
+  "homepage": "https://github.com/brisum/php-lib-form",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Manchenko",
+      "email": "omanchenko@brisum.com",
+      "homepage": "http://brisum.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Brisum\\Lib\\Form\\": "src/"
+    }
+  }
+}
