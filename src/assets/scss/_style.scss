@@ -1,7 +1,43 @@
 form.astute-form {
+  .astute-form {
+    &-alert {
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      background-color: #ff9800;
+      color: white;
+    }
+    &-alert.alert {
+      background-color: #f44336;
+    }
+    &-alert.success {
+      background-color: #4CAF50;
+    }
+    &-alert.info {
+      background-color: #2196F3;
+    }
+    &-alert.warning {
+      background-color: #ff9800;
+    }
+
+    &-closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    &-closebtn:hover {
+      color: black;
+    }
+  }
+
   .error-message {
     margin: 0;
-    font-size: 0.875rem;
+    font-size: 0.875em;
     color: #d30808;
   }
 }
